@@ -1,0 +1,75 @@
+body{
+    font-family: consolas;
+    color: #000000;
+    background-image: url("../img/img-login.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+* {
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+}
+input{
+    border-bottom: 1px dotted #dfdfdf;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: black;
+    padding: 5px;
+    width: 280px;
+    margin-bottom: 20px;
+}
+input:focus{
+    border: 1px dotted #dcdcdc;
+    outline: none;
+}
+input#submit{
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    background-color: #fff;
+}
+input#submit:hover{
+    color: #665544;
+    background-color: #efefef;
+}
+fieldset{
+    width: 500px;
+    border: 1px solid #dcdcdc;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: left;
+    background-color: rgba(000, 000, 000, 0.5);
+   
+}
+legend{
+    background-color: rgba(000, 000, 000, 0.5);
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: left;
+    text-transform: uppercase;
+}
+label#email{
+    text-align: left;
+}
+.contrato{
+    width: 20px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form label, form a, form legend{
+    color: white;
+}
+
+form input{
+    color:black;
+}
+img{
+    width: 50px;
+}

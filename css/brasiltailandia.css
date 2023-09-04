@@ -1,0 +1,102 @@
+#txtBusca{
+    display: inline;
+}
+#imgLupa{
+    display: inline;
+}
+
+header {
+    padding: 20px;
+    background-color: #13138d;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+nav{
+    list-style: none;
+    margin-left: 2%;
+    text-align: right;
+    display: flex;
+}
+
+.paginas{
+    display: inline-block;
+    margin-left: 15%;
+}
+header ul{
+    list-style: none;
+    margin-left: 10%;
+    margin-top: 2%;
+    text-align: right;
+    display: inline;
+    margin-left: 40%;
+}
+header ul li{
+    list-style: none;
+    margin-right: 4%;
+    text-align:center;
+    margin-left: auto;
+    display: inline;
+}
+
+.lista1{
+    list-style: none;
+    margin-right: 3%;
+    text-align:center;
+    margin-left: auto;
+    display: inline;
+}
+
+header h1{
+    text-align: center;
+    color:white;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 10%;
+}
+.login{
+    display: inline-block;
+}
+.busca{
+    margin-top:0%;
+    display: inline-block;
+}
+header a{
+    color:white;
+}
+.principal{
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 0%;
+}
+h2{
+    color:black;
+    width: 85%;
+    margin-top: 15%;
+    margin-left: 10%;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}
+p{
+    width: 90%;
+    margin-left: 5%;
+    font-size: 30px;
+}
+.novidades{
+    width:30%;
+    margin-right: 5%;
+    margin-top: 40%;
+    margin-left: 45%;
+}   
+.chata{
+    width: 100%;
+    display: flex;
+}
+.article{
+    display: inline-block;
+}
