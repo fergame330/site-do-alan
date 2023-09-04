@@ -1,0 +1,44 @@
+<!doctypehtml>
+<html lang="pt-BR">
+ <head>
+   <meta charset="UTF-8">
+   <title>SeleçãoBrasileiraVôlei</title>
+   <link rel="stylesheet" href="./css/entrar.css">
+   <script src="prefixfree.min.js"></script>
+ </head>
+ <body>
+	<header>
+		<a href="index.html"><img src="img/home.png" /></a>
+	</header>
+	 <main>
+		<form action="index.html"  method="post">
+		  <fieldset>
+			<legend>login</legend>
+			<p>
+			<label for="name"> Nome: </label>    
+			<input type="text" id="name" name="nome" required>
+			</p>
+			<p>
+			<label for="idade"> Data de Nascimento: </label>    
+			<input type="text" id="idade" name="idade" placeholder="xx/xx/xxxx" required>
+			</p>
+			<p>
+			<label for="email"> Email: </label>
+			<input type="email" id="email" name="email" required>
+			</p>
+			<p>
+			<label for="senha"> Senha: </label>
+			<input type= "password" id="senha" name="senha" required>
+			</p>
+			<p>
+			<input class="contrato" id="contrato" name="contrato" type="checkbox" value= "sim">
+			<label for="contrato"> Li e aceito todos os <a src="">Termos de Uso</a> </label>
+			</p>
+			<p>
+			<input class="contrato" id="contrato2" name="contrato" type="checkbox" value= "sim" required>
+			<label for="contrato2"> Li e aceito a <a src="">Política de Privacidade</a> </label>
+			</p>
+			<input id="submit" type="submit" name="puta" value="Enviar">
+		  </fieldset>
+		</form>	
+	</main>
