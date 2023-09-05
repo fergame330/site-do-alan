@@ -1,3 +1,18 @@
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #13138d;
+  border-radius: 10px;
+  -webkit-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
 #txtBusca{
     display: inline;
 }
@@ -5,34 +20,105 @@
     display: inline;
 }
 
+a{
+  text-decoration: none;
+}
+
 header {
-    padding: 20px;
-    background-color: #13138d;
-    display: flex;
-    align-items: center;
-    position: fixed;
-    height: 10%;
-    width: 100%;
-    z-index: 1;
-    top: 0;
+  padding: 20px;
+  background-color: #13138d;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  height: 10%;
+  width: 100%;
+  z-index: 1;
+  top: 0;
 }
 
-nav{
-    list-style: none;
-    margin-left: 2%;
-    text-align: right;
-    display: flex;
+.titulo {
+  flex-grow: 1;
+  text-align: left;
+  margin-right: 0%;
 }
 
-.paginas{
-    display: inline-block;
-    margin-left: 15%;
+.navegacao {
+  flex-grow: 1;
+  text-align: center;
+  display: flex;
+  margin-right: -17%;
+  text-align:right;
+  justify-content: right; /* Centralize horizontalmente as opções de navegação */
+  align-items: center;
+}
+
+.paginas {
+  list-style: none;
+  margin: 0 10px; /* Espaçamento entre as opções de navegação */
+}
+
+
+nav {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.carousel {
+  box-sizing: border-box;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.noticias {
+  width: 72.6%;
+  box-sizing: border-box;
+}
+
+.noticias h2 {
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+}
+
+.noticias article {
+  margin-bottom: 20px;
+}
+
+.noticias h3 a {
+  text-decoration: none;
+  color: #333; /* Cor do texto do link */
+}
+
+.noticias img {
+  width: 100%;
+  height: auto;
 }
 
 .carousel {
     position: relative;
-    width: 80%;
-    margin: auto;
+    width: 90%;
+    margin-left: 0%;
+    display: inline-flex;
     overflow: hidden;
   }
   
@@ -101,13 +187,16 @@ h1{
     color:white;
     font-size: 18px;
     font-family: 'Lato', sans-serif;
-    margin-left: 10%;
+    margin-right: 20%;
+    padding-left: 2%;
 }
 .login{
     display: inline-block;
+    margin-top: 50%;
 }
 .busca{
     margin-top:0%;
+    margin-left: -20%;
     display: inline-block;
 }
 header a{
